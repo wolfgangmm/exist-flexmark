@@ -726,7 +726,7 @@
             raise-error-on-failed-retrieval="no">
 
         <builtin-modules>
-            <module uri="https://my-organisation.com/exist-db/ns/app/my-java-module" class="org.eeditiones.markdown.ExampleModule"/>
+            <module uri="https://e-editiones.org/exist-db/markdown" class="org.eeditiones.markdown.MarkdownModule"/>
         </builtin-modules>
     </xquery>
 

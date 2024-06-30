@@ -40,7 +40,7 @@
     </fileSets>
 
     <!-- include the XQuery Library modules written in XQuery from this project -->
-    <xquerySets>
+    <!--xquerySets>
         <xquerySet>
             <namespace>https://e-editiones.org/exist-db/markdown</namespace>
             <directory>${basedir}/src/main/xquery</directory>
@@ -49,7 +49,7 @@
             </includes>
             <outputDirectory>content</outputDirectory>
         </xquerySet>
-    </xquerySets>
+    </xquerySets-->
 
     <!-- include the XQuery Library Module written in Java (JAR output) from this project -->
     <dependencySets>
@@ -57,6 +57,76 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>${project.artifactId}</artifactId>
             <version>${project.version}</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-util-ast</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-util-builder</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-util-collection</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-util-data</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-util-dependency</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-util-format</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-util-html</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-util-misc</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-util-options</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-util-sequence</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-util-visitor</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-ext-anchorlink</artifactId>
+            <version>0.64.8</version>
+        </dependencySet>
+        <dependencySet>
+            <groupId>com.vladsch.flexmark</groupId>
+            <artifactId>flexmark-ext-tables</artifactId>
+            <version>0.64.8</version>
         </dependencySet>
     </dependencySets>
 

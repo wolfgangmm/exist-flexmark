@@ -23,9 +23,7 @@ public class MarkdownModule extends AbstractInternalModule {
     // register the functions of the module
     public static final FunctionDef[] functions = functionDefs(
         functionDefs(ParsingFunctions.class,
-                ParsingFunctions.FS_HELLO_WORLD,
-                ParsingFunctions.FS_SAY_HELLO,
-                ParsingFunctions.FS_ADD
+                ParsingFunctions.FS_PARSE
         )
     );
 
